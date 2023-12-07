@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-do app</h1>
+      <label for="title">Title:</label>
+      <input type="text" placeholder="Enter Your Task" id="title" />
+      <label for="description">Description:</label>
+      <input
+        type="text"
+        placeholder="Enter description about your task "
+        id="description"
+      />
+      <button type="button" class="submit" onclick="fetchAndDisplayTodos()">
+        Submit
+      </button>
+      <ul></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
